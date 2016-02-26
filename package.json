@@ -1,0 +1,36 @@
+{
+  "name": "fs-map",
+  "version": "1.0.0",
+  "description": "Get a map of the file system with information about the files at each path.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gi60s/fs-map.git"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "map",
+    "stat",
+    "paths"
+  ],
+  "author": "James Speirs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gi60s/fs-map/issues"
+  },
+  "homepage": "https://github.com/Gi60s/fs-map#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.3"
+  }
+}
