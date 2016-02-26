@@ -2,6 +2,12 @@
 
 Get a map of the file system with information about the files at each path. The information populated is that which is returned from Node's fs.stat function.
 
+## Installation
+
+```bash
+npm install fs-map
+```
+
 ## Usage
 ```js
 var fsMap = require('fs-map');
